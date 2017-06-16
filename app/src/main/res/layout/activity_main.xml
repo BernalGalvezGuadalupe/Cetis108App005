@@ -9,19 +9,19 @@
     android:weightSum="1">
 
     <ListView
+        android:id="@+id/lst_categorias"
         android:layout_width="match_parent"
         android:layout_height="137dp"
         android:layout_weight="0.94" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_nuevo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:onClick="mostrar"
         android:text="Nuevo"
         tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="203dp"
-        />
+        tools:layout_editor_absoluteY="203dp" />
 
 </LinearLayout>

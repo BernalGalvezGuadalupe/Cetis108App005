@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Tema_tipo_Activity"></activity>
+        <activity android:name=".Tema_tipo_Activity" />
+        <activity android:name=".Categoria_tipo_activity" />
+        <activity android:name=".Tema_lista_activity"></activity>
     </application>
 
 </manifest>

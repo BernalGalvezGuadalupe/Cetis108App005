@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void mostrar(View v) {
-        Intent nuevo = new Intent(this, Tema_tipo_Activity.class);
+        Intent nuevo = new Intent(this, Categoria_tipo_activity.class);
         startActivity(nuevo);
 
     }
